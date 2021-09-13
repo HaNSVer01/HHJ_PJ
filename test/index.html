@@ -6,23 +6,63 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
 
+    <!-- <!-- JS코딩방식(인터널방식)  -->
+    <script>
+        // 바로 실행되지 않고 호출시에만 실행하는 코드구역----> 함수!!
+        /* 코드구역 ----> 함수! */
+        // 함수 형식 -> function 이름(){코드}
+        // funtion 이름 (전달변수) { 코드}
+        // 전달할 값을 전달변수에 담는다!
+        function yogi(gab) { //gab 넘어오는 값
+            // 1.호출확인
+            //alert("나야나!");
+
+            // 자스는 왜하나?
+            // html을 변경하려고 JS에서 중요한것은 웹문서 === document(객체)! 
+            document //전체문서소환
+                .getElementsByClassName("gnb") //클래스요소선택
+                .item(0) //클래스중 첫번째
+                .style //스타일시트 설정
+                .top // top값 설정
+            = gab; // 전달변수(파라미터)로 값을 세팅한다!
+            // JS에서 이퀄은 오른쪽 값이 왼쪽으로 들어감(할당!)
+
+
+        } /////////// yogi함수 //////////
+
+        // 함수는 호출시: 함수명()
+    </script>
+
+
 </head>
 
 <body>
-    <video width="100%" height="auto" autoplay loop muted controls>
-        <source src="./../화면.mp4" type="video/mp4"> 
-        대체 텍스트
-    </video>
 
+    <!-- 메인타이틀 -->
+    <img src="./images/t1.png" alt="FTRK">
+
+    <!-- 전체메뉴버튼 -->
+    <button class="ham" onclick="yogi('0')">≡</button>
+    <!-- 
+            on이벤트명="값"
+            -> 이벤트연결 속성
+            -> 값으로 JS코드만 사용가능!
     
+            예) onclick="함수호출"
+        -->
 
-    <!-- 매드맥스 경운기 영상으로 바꾸고  글자 포토샵으로 바꿔서 png변환해서 넣기
-            body {
-            height: 4000px;
-        } 전체화면 높이값 주기
-    -->
+    <!-- 전체 네비게이션박스 -->
+    <nav class="gnb">
+        <!-- 닫기버튼 -->
+        <button class="ham" onclick="yogi('-100%')">×</button>
 
-    
+
+    </a>
+</nav>
+    <img src="./images/map.png" alt="FTRK" >
+
+    <img src="./images/버튼1.png" alt="">
+
 </body>
 
 </html>
