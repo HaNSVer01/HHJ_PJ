@@ -62,8 +62,7 @@ body {
     position: relative;
     top: 100px;
     margin: 0 auto;
-    /* 나의 부모는? */
-    width: 600px;
+    width: 550px;
     height: 700px;
     background: url(../images/map.png) no-repeat 0/100% 100%;
 }
@@ -72,7 +71,6 @@ body {
     position: absolute;
     top: 270px;
     left: 150px;
-    /* 나의 부모는? */
     width: 90px;
     height: 30px;
     background: url(../images/seoul1.png) no-repeat 0/100% 100%;
@@ -121,6 +119,6 @@ body {
 
 
 
-#ct:hover #ss img:first-child {
+/* #ct:hover #ss img:first-child {
     display: inline;
-}
+} */
