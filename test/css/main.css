@@ -63,15 +63,15 @@ body {
     top: 100px;
     margin: 0 auto;
     /* 나의 부모는? */
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 700px;
     background: url(../images/map.png) no-repeat 0/100% 100%;
 }
 
 #sl {
     position: absolute;
-    top: 180px;
-    left: 80px;
+    top: 270px;
+    left: 150px;
     /* 나의 부모는? */
     width: 90px;
     height: 30px;
@@ -101,8 +101,8 @@ body {
 /* 서산 이름 위치 */
 #ss {
     position: absolute;
-    left: 80px;
-    top: 250px;
+    left: 150px;
+    top: 360px;
     width: 90px;
     height: 30px;
     background: url(../images/seosan1.png) no-repeat 0/100% 100%;
