@@ -39,26 +39,42 @@ body {
 }
 
 
-
-
-
-
-/* 로고 */
-h1.logo {
+ul,
+ol {
+    /* 3無 */
     margin: 0;
     padding: 0;
-    text-align: center;
-    /* 내부에 있는 인라인 컨텐츠 중앙정렬 */
+    list-style: none;
 }
-h1.logo img {
-    width: 100px;
+
+li {
+    float: right;
+    /* 옆으로 흐르게 */
 }
+
 
 h3 {
     font: 20px 'Gowun Batang', serif, arial;
     font-weight: 700;
 }
 
+.gnb>ul>li{
+    padding: 20px 25px;
+    /* 양쪽을 동일하게 밀고 사이간격은 34px */
+}
+
+
+.gnb>ul>li>a{
+    font-family: 'Gowun Batang' , serif;
+    font-weight: 700;
+    display: block;/* 높이값 적용위해 */
+    height: 60px;/* 적용되나? */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 60px;
+    box-sizing: border-box;/* 보더,패딩 내부로 포함 */
+}
 
 /* 메인,하단 랩핑박스 */
 .wrap{
@@ -66,7 +82,7 @@ h3 {
     /* background: 색 이미지 반복 고정 위치/크기;
     background: 색이반고윙/크; */
     background: 
-    url(../images/logo.png) no-repeat fixed 5% -10%/10%,
+    url(../images/logo.png) no-repeat fixed 5% -5%/10%,
     url(../images/bg2.jpeg) no-repeat fixed center/cover;
     /* 배경이미지를 여러개 사용할 경우 먼저 쓴것이 위에온다! */
 }
@@ -81,7 +97,7 @@ h3 {
 #cbx {
     position: relative;
     top: 260px;/* 원래위치에서 아래로 400px이동 */
-    width: 90%;
+    width: 95%;
     /* height: 300px; 
         자식요소 float때문에
         자식요소를 인식하지 못함!
@@ -247,21 +263,17 @@ ul.bm li {
 }
 
 ul.bm a {
-    color: #222;
+    color: rgb(79, 79, 79);
     text-decoration: none;
     /* 밑줄없앰 */
     font: bold 14px/2 "Gowun Batang";
+
 }
 
 ul.bm a:hover {
-    color: red;
+    color: rgb(34, 34, 34);
     text-decoration: underline;
     /* 밑줄 */
 }
 
 
-/* 하단로고 박스 */
-#blogo {
-    text-align: left;
-    /* 인라인요소 중앙정렬 */
-}
