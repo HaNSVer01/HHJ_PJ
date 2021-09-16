@@ -59,7 +59,7 @@ h3 {
 }
 
 .gnb>ul>li{
-    padding: 20px 25px;
+    padding: 50px 35px;
     /* 양쪽을 동일하게 밀고 사이간격은 34px */
 }
 
@@ -147,7 +147,7 @@ h3 {
 /* 캐릭터 이미지 */
 .ci>img {
     /* 직계자식 이미지만! */
-    width: 100%;
+    width: 90%;
     height: 200px;
     /* 이미지의 height는 자동(비율유지) */
 }
@@ -203,6 +203,8 @@ h3 {
     */
     background-color: #fff;
 
+    width: 90%;
+
     
     transition: height .6s ease-out;
 }
@@ -240,11 +242,12 @@ h3 {
 
 /* 하단링크 */
 ul.bm {
-    width: 720px;
-    max-width: 90%;
+    width: 420px;
+    max-width: 80%;
 
     margin: 0 auto;
     /* 마영오! */
+    margin-right: auto;
     padding: 0;
     list-style: none;
     /* 3無 */
@@ -260,6 +263,7 @@ ul.bm::after {
 ul.bm li {
     float: left;
     padding: 0 5px;
+    text-align: left;
 }
 
 ul.bm a {
@@ -267,7 +271,6 @@ ul.bm a {
     text-decoration: none;
     /* 밑줄없앰 */
     font: bold 14px/2 "Gowun Batang";
-
 }
 
 ul.bm a:hover {
