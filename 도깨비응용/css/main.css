@@ -18,6 +18,11 @@ body {
     /* 뷰포트 적용시 내용이 넘쳐서 x축공간이 비어 보일 경우
     이 코드 설정한다!!! */
 }
+body{
+    background: 
+    url(../images/logo.png) no-repeat  5% -5%/10%,
+    url(../images/bg2.jpeg) no-repeat fixed center/cover;
+}
 
 /* 스크롤바 트랙 변경하기 클래스 */
 /* -webkit- 벤더사명(크롬,사파리) 접두어 */
@@ -46,7 +51,11 @@ ol {
     padding: 0;
     list-style: none;
 }
-
+ul::after,ol::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 li {
     float: right;
     /* 옆으로 흐르게 */
@@ -81,9 +90,9 @@ h3 {
     /* 배경 한번에 셋팅하기! */
     /* background: 색 이미지 반복 고정 위치/크기;
     background: 색이반고윙/크; */
-    background: 
+    /* background: 
     url(../images/logo.png) no-repeat  5% -5%/10%,
-    url(../images/bg2.jpeg) no-repeat fixed center/cover;
+    url(../images/bg2.jpeg) no-repeat fixed center/cover; */
     /* 배경이미지를 여러개 사용할 경우 먼저 쓴것이 위에온다! */
 }
 
