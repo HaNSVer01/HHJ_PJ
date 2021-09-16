@@ -82,22 +82,22 @@ h3 {
     /* background: 색 이미지 반복 고정 위치/크기;
     background: 색이반고윙/크; */
     background: 
-    url(../images/logo.png) no-repeat fixed 5% -5%/10%,
+    url(../images/logo.png) no-repeat  5% -5%/10%,
     url(../images/bg2.jpeg) no-repeat fixed center/cover;
     /* 배경이미지를 여러개 사용할 경우 먼저 쓴것이 위에온다! */
 }
 
 /* 2. 메인영역 */
 .cont{
-    min-height: 800px;
-    /* 최소높이 800px유지~ */
+    min-height: 1000px;
+    
 }
 
 /* 캐릭터 박스 */
 #cbx {
     position: relative;
-    top: 260px;/* 원래위치에서 아래로 400px이동 */
-    width: 95%;
+    top: 360px;/* 원래위치에서 아래로 400px이동 */
+    width: 90%;
     /* height: 300px; 
         자식요소 float때문에
         자식요소를 인식하지 못함!
@@ -105,7 +105,7 @@ h3 {
     */
     margin: 0 auto;
     /* 마영오! - 가로중앙정렬(relative일때도 적용됨!) */
-    /* outline: 15px dashed lime; */
+    /* outline: 15px dashed lime;  */
 }
 
 /* 가상요소로 float해제 */
@@ -148,7 +148,7 @@ h3 {
 .ci>img {
     /* 직계자식 이미지만! */
     width: 90%;
-    height: 200px;
+    height: 250px;
     /* 이미지의 height는 자동(비율유지) */
 }
 
@@ -174,18 +174,6 @@ h3 {
     display: none;
 }
 
-/* .cat박스에 마우스 오버시 */
-/* 캐릭터 이름 첫번째 이미지 보이기 */
-/* 원래 이미지는 display:inline */
-.cat:hover .ci span img:first-child {
-    display: inline;
-}
-
-/* .cat박스에 마우스 오버시 */
-/* 캐릭터 이름 마지막 이미지 숨기기 */
-.cat:hover .ci span img:last-child {
-    display: none;
-}
 
 /* 캐릭터 설명 박스 */
 .cd {
