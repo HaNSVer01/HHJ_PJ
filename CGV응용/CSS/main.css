@@ -2,6 +2,13 @@
 
 
 body {
-  height: 100vh;
-  background: url(../images/bg.jpg) center/cover no-repeat;
+  background-color: teal;
+
+}
+
+#box {
+  width: 200px;
+  height: 150px;
+  border: 10px solid yellow;
+
 }
