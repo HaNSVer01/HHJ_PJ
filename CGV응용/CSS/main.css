@@ -11,21 +11,35 @@
 랜더링 효율성을 높여준다! */
 
 body {
+    position: relative;
     background: url(../images/blp.png) no-repeat;
     background-position: top right;
-    background-color: #1e3f27;    
+    background-color: #1e3f27;  
+
     
+    
+}
+
+html body {
+    height: 920px;
 }
 
 /* 레이아웃 공통 클래스 */
 .part {
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     /* 가로중앙 */
     /* outline: 3px dotted yellow; */
 }
 
 /************** 1. 상단영역 *******************/
+/* jazz로고 */
+.j {
+    margin-left: -290px;
+    margin-top: 47px;
+}
+
+
 #top {
     position: relative;
     /* 부모자격! - .gnb */
@@ -42,6 +56,8 @@ body {
     bottom: -22px;
     right: 347px;
     /* 나의부모는? #top */
+    top: 42px;
+    right: -250px;
 }
 
 /* GNB ul 리스트 박스 */
@@ -50,6 +66,8 @@ body {
     z-index: 1;
     /* 다음형제 요소인 #cam 앱솔박스보다 위!
     -> 마우스 오버가 안되니까~~! */
+    top: 66px;
+    right: 445px;
 }
 
 /* GNB li리스트 */
@@ -59,7 +77,7 @@ body {
     padding: 0 10px;
     padding-bottom: 5px;
     /* 하위메뉴 마진탑부분과 겹치게함! */
-
+    font-family: 'Noto Sans Display', sans-serif;
     /* 글자크기 미지정시 16px임! */
     font-size: 20px;
 }
@@ -129,14 +147,11 @@ body {
 /* 2-1.스크린박스 */
 #screen {
     position: absolute;
-    top: 60px;  
-    /* 위치 변경 */
+    top: 105px;
     left: 0px;
-    /* 나의 부모는? #cont */
-    width: 701px;
-    height: 398px;
+    width: 80%;
+    height: 60%;
     background-color: #000;
-
 }
 
 
@@ -151,9 +166,10 @@ body {
 /* 2-2. 예고편선택메뉴위치 */
 .mlist {
     position: absolute;
-    bottom: 69px;
-    left: 69px;
+    bottom: 22px;
     overflow: hidden;
+    right: 263px;
+
     /* 넘치는 자식요소 숨기기
     -> .movtxt요소의 부모에 줘야 적용된다! */
 }
@@ -192,16 +208,93 @@ body {
 
 }
 
-.lp {
-  transform-origin: center;
-}
+    .lp {
+    transform-origin: center;
+    }
 
 
-.lp:hover {
-  transform: rotate(5423deg);
-  transition-duration: 10s;
-  /* 트렌지션 시간 변경하기 */
-}
+    .lp:hover {
+    transform: rotate(5423deg);
+    transition-duration: 23s;
+    /* 트렌지션 시간 변경하기 */
+    }
+
+    .p1 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 963px;
+        width: 70px;
+        height: 70px;
+    }
+
+    
+    .lp2 {
+        transform-origin: center;
+    }
+    
+    
+    .lp2:hover {
+        transform: rotate(5423deg);
+        transition-duration: 23s;
+        /* 트렌지션 시간 변경하기 */
+    }
+    
+    .p2 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 793px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .lp3 {
+        transform-origin: center;
+    }
+    
+    
+    .lp3:hover {
+        transform: rotate(5423deg);
+        transition-duration: 23s;
+        /* 트렌지션 시간 변경하기 */
+    }
+
+
+    .lp4 {
+        transform-origin: center;
+    }
+    
+    
+    .lp4:hover {
+        transform: rotate(5423deg);
+        transition-duration: 23s;
+        /* 트렌지션 시간 변경하기 */
+    }
+
+
+    .lp5 {
+        transform-origin: center;
+    }
+    
+    
+    .lp5:hover {
+        transform: rotate(5423deg);
+        transition-duration: 23s;
+        /* 트렌지션 시간 변경하기 */
+    }
+
+
+    .lp6 {
+        transform-origin: center;
+    }
+    
+    
+    .lp6:hover {
+        transform: rotate(5423deg);
+        transition-duration: 23s;
+        /* 트렌지션 시간 변경하기 */
+    }
+
+
 
 /* 영화정보 li */
 .movtxt li {
@@ -232,7 +325,7 @@ body {
 #info address{
     color: #fff;
     font-style: normal;/* 이탤릭해제 */
-    font-family: 'Cute Font', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
     font-size: 18px;
     line-height: 20px;
 

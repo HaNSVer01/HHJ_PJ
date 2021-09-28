@@ -3,12 +3,18 @@
 /* -> 웹폰트, 공용공통클래스  */
 
 /* 웹폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Jua&family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,500;0,600;0,700;1,200;1,500&display=swap');
+
 
 /* 
-    font-family: 'Cute Font', cursive;
-    font-family: 'Jua', sans-serif;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    Noto Sans Display
+    Extra-light 200
+    Extra-light 200 italic
+    Medium 500
+    Medium 500 italic
+    Semi-bold 600
+    Bold 700
 */
 
 /* IR(Image Replacement)클래스 */
