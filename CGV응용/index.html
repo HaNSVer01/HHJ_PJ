@@ -4,66 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGV PJ</title>
+    <title>Ella fitzgerald</title>
     <link rel="stylesheet" href="./css/main.css">
+
     <!-- JS코딩구역 -->
     <script>
-        // 코드를 저장하여 호출시에만 실행하는 것은?
-        // -> 함수다! -> 영어로 function
-        // 형식: function 함수명(전달변수){코드}
-        // 함수는 전화받는 사람!
-        // function은 키워드로 반드시 써야함!
+    
         function gogo(yo) {
-            // yo 전달변수(이름은 개발자창작)
-            // 전달변수는 함수호출시 보내는 값을
-            // 담아놓는 메모리 공간의 이름!
-            // 이 이름은 따옴표로 싸면 안됨!
-
-            // 1. 함수호출확인 + 전달값 확인
-            // alert(yo);
-
-            // 2. 변경요구사항: 전달된 동영상 아이디값을
-            //   아이프레임의 src속성값으로 넣어준다!
-            // 기대되는 변경사항 -> 동영상이 바꿔서 play!
-            // 원하는 대상: 아이프레임 ->  #tg
-            // DOM으로 JS선택하기!
-            // Document Object Model -> 돔!
-            // -> html의 구조를 따라 요소를 선택하는 방법(기술)
-            // -> 웹 페이지 지도 또는 네비게이션!
-            // 돔의 아버지 ->>>> document
-            // document는 웹문서의 최상위 객체!
-            // 접근법->> 우주.우리은하.태양계.지구.대한민국.서울.강남구.테헤란로.119번지
-            // 점....... 은 하위구성요소로 들어가는 문이다!
-            // 이퀄(=)은 같다는 뜻이 아니고 오른쪽값이 왼쪽으로 들어감!(할당!)
-            // JS 명령문은 끝날때 세미콜론해준다!
-            // 사실 브라우저는 ASI(Auto Semicolon Insertion:자동 세미콜론 넣기)를 해주지만 문제가 발생할 수 있으므로 개발자가 직접해주는 것이 정석이다!!!
+        
             document.getElementById("tg").src =
                 "https://www.youtube.com/embed/" +
                 yo +
                 "?autoplay=1&loop=1&playlist=" +
                 yo;
-            // 기존값에 yo라는 변수에 담긴 동영상아이디값을
-            // 합쳐서 src값에 할당한다!!!
+          
 
 
 
         } ///////// gogo함수 ///////////////////
         ////////////////////////////////////////
-
-        /* 
-            함수의 호출은 요소(태그)의 이벤트 속성과
-            연결하여 가능하다!
-            각 이벤트가 발생할때를 알려주는 특성이 있음 
-            이벤트 속성은 on+이벤트명 으로 이름지어짐
-            예)
-            onclick, ondblclick, onmouseover, onkeypress, onload 등
-
-            [이벤트 속성 사용법]
-            구성: <태그명 이벤트속성="값">
-            -> 값에서 JS코드를 사용할 수 있다!
-            -> 값에서 함수호출을 할 수 있다!
-            -> 이벤트속성 셋팅을 JS코딩구역에서만 할 수도 있다~!(나중엔 이렇게함!!!-소스분리)
-        */
     </script>
 </head>
 
@@ -144,13 +103,6 @@
                     </div>
                 </li>
             </ul>
-            <!-- 영사기박스 -->
-            <aside id="cam">
-                <!-- 영사기 이미지 -->
-                <!-- <img src="images/gnb.png" alt="영사기"> -->
-                <!-- 빔표시박스 -->
-                <div class="bim"></div>
-            </aside>
         </nav>
     </header>
     <!-- 2. 메인영역 -->
@@ -164,10 +116,7 @@
         <nav class="mlist">
             <ul>
                 <li>
-                    <!-- 함수호출시 보내는 문자값은 반드시 반드시 반드시!!! 따옴표로 싼다! 그래야 문자값이다! -->
                     <a href="#" onclick="gogo('4Aqs-ojuE_Y');return false;">
-                        <!-- a요소 클릭시 #으로 인한 페이지 상단이동
-                        을 막기위해 JS호출시 return false코드를 추가한다! -->
                         <!-- 포스터 -->
                         <img src="images/slp11.png" class="lp" alt="">
                         <!-- 영화정보 -->
