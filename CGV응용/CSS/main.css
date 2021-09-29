@@ -12,12 +12,9 @@
 
 body {
     position: relative;
-    background: url(../images/blp.png) no-repeat;
+    /* background: url(../images/blp.png) no-repeat; */
     background-position: top right;
-    background-color: #1e3f27;  
-
-    
-    
+    background-color: #1e3f27;    
 }
 
 html body {
@@ -37,6 +34,15 @@ html body {
 .j {
     margin-left: -290px;
     margin-top: 47px;
+}
+
+/* big lp판  */
+.blp {
+    margin-left: 1085px;
+    margin-top: -553px;
+    width: 514px;
+    height: 920px;
+
 }
 
 
@@ -67,7 +73,8 @@ html body {
     /* 다음형제 요소인 #cam 앱솔박스보다 위!
     -> 마우스 오버가 안되니까~~! */
     top: 66px;
-    right: 445px;
+    right: 487px;
+
 }
 
 /* GNB li리스트 */
@@ -97,12 +104,14 @@ html body {
     /* 특정크기를 주지 않고 auto일 경우 부모크기로 한정됨!
     따라서 특정크기를 줘야하는 케이스임! */
     
+    /* background: url(../images/bg_smenu.png) no-repeat center/cover; */
 
+    background-color: #1e3f27;
     padding: 3px;
     /* 패딩 */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     /* 둥근모서리 */
-    box-shadow: 0 0 5px #fff;
+    /* box-shadow: 0 0 5px #fff; */
     /* 박스글로우 : x y blur (spread) 색 */
 
     display: none;
@@ -148,8 +157,8 @@ html body {
 #screen {
     position: absolute;
     top: 105px;
-    left: 0px;
-    width: 80%;
+    left: 152px;
+    width: 70%;
     height: 60%;
     background-color: #000;
 }
@@ -168,7 +177,7 @@ html body {
     position: absolute;
     bottom: 22px;
     overflow: hidden;
-    right: 263px;
+    right: 272px;
 
     /* 넘치는 자식요소 숨기기
     -> .movtxt요소의 부모에 줘야 적용된다! */
@@ -327,7 +336,7 @@ html body {
     font-style: normal;/* 이탤릭해제 */
     font-family: 'Noto Sans Display', sans-serif;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 125px;
 
     /* 안쪽여백 */
     padding-top: 20px;
@@ -343,8 +352,8 @@ html body {
 /* 3-2.sns버튼 */
 .sns{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 63px;
+    right: 374px;
     /* 부모는? #info */
 }
 /* sns li박스 */
