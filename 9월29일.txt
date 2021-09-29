@@ -4,17 +4,17 @@ cgv응용 파일에 따로 파일만들지말고 zip.안에 넣기
 설계도 필수는 아님**********************
 
 
-1) 시멘틱태그
+1) 시멘틱태그 0
 2) id class 가상선택자 0 
 3) footer 회사주소 / SNS정보 0 
 4) 그림파일 0 
-5) 비디오 태그 인트로 페이지 구성
+5) 비디오 태그 인트로 페이지 구성0
 6) 유튜브 동영상연결 -0 
-7) index.html / intro.html파일로 저장 
-8) 웹접근성검사받기 
+7) index.html / intro.html파일로 저장 0
+8) 웹접근성검사받기 0
 
 
-작은엘피 동영상 넣기 - 
+작은엘피 동영상 넣기 - 0
 1
 2 caravan - dukeellington
 3 misty ella fitz----
@@ -22,16 +22,18 @@ cgv응용 파일에 따로 파일만들지말고 zip.안에 넣기
 5(I Put A Spell On You니나시몬스) 
 6(take5)
 
-핀 적용
+핀 적용 0
 
-sns링크적용
+sns링크적용 0
 
 동영상 iframe적용할때 링크 맨뒤에 
-?autoplay=1 해야 자동재생됨 
+?autoplay=1 해야 자동재생됨 0
 
 
 
-큰lp 똑같은 크기에 포샵으로 제목 씌우기 
+큰lp 똑같은 크기에 포샵으로 제목 씌우기 0
+
+
 
 메서드만들어봤어? =  객체 안에 함수 만들어봤어?
 
@@ -42,15 +44,3 @@ sns링크적용
 - 설문조사할때 쓰임
 
 
-
-ninasimone 
-ettajames
-
-
-
-fruits
-misty
-draen
-
-
-;p

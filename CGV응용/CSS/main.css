@@ -5,10 +5,6 @@
 @import url(reset.css);
 @import url(core.css);
 
-/* 외부파일 합치는 @import는 하나의 CSS외부파일
-에서 다른 외부CSS파일을 하나의 문서로 합치는 기능을
-한다. html에서 link방식의 요청을 최소화 할 수 있어서
-랜더링 효율성을 높여준다! */
 
 body {
     position: relative;
@@ -70,8 +66,6 @@ html body {
 .glist{
     position: relative;
     z-index: 1;
-    /* 다음형제 요소인 #cam 앱솔박스보다 위!
-    -> 마우스 오버가 안되니까~~! */
     top: 66px;
     right: 487px;
 
