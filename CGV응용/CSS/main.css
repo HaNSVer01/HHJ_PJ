@@ -224,14 +224,14 @@ html body {
 
     .lp:hover {
     transform: rotate(5423deg);
-    transition-duration: 23s;
+    transition-duration: 20s;
     /* 트렌지션 시간 변경하기 */
     }
 
     .p1 {
         position: absolute;
         margin-top: 617px;
-        margin-left: 963px;
+        margin-left: 954px;
         width: 70px;
         height: 70px;
     }
@@ -244,14 +244,14 @@ html body {
     
     .lp2:hover {
         transform: rotate(5423deg);
-        transition-duration: 23s;
+        transition-duration: 20s;
         /* 트렌지션 시간 변경하기 */
     }
     
     .p2 {
         position: absolute;
         margin-top: 617px;
-        margin-left: 793px;
+        margin-left: 784px;
         width: 70px;
         height: 70px;
     }
@@ -263,8 +263,16 @@ html body {
     
     .lp3:hover {
         transform: rotate(5423deg);
-        transition-duration: 23s;
+        transition-duration: 20s;
         /* 트렌지션 시간 변경하기 */
+    }
+
+    .p3 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 614px;
+        width: 70px;
+        height: 70px;
     }
 
 
@@ -275,8 +283,16 @@ html body {
     
     .lp4:hover {
         transform: rotate(5423deg);
-        transition-duration: 23s;
+        transition-duration: 20s;
         /* 트렌지션 시간 변경하기 */
+    }
+
+    .p4 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 445px;
+        width: 70px;
+        height: 70px;
     }
 
 
@@ -287,8 +303,16 @@ html body {
     
     .lp5:hover {
         transform: rotate(5423deg);
-        transition-duration: 23s;
+        transition-duration: 20s;
         /* 트렌지션 시간 변경하기 */
+    }
+
+    .p5 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 274px;
+        width: 70px;
+        height: 70px;
     }
 
 
@@ -299,8 +323,16 @@ html body {
     
     .lp6:hover {
         transform: rotate(5423deg);
-        transition-duration: 23s;
+        transition-duration: 20s;
         /* 트렌지션 시간 변경하기 */
+    }
+
+    .p6 {
+        position: absolute;
+        margin-top: 617px;
+        margin-left: 105px;
+        width: 70px;
+        height: 70px;
     }
 
 
