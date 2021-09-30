@@ -183,33 +183,13 @@ html body {
     /* li 바깥쪽 양쪽밀기 */
 }
 
-/* 포스터 이미지 */
-.mlist img {
-  width: 150px;
-  height: 150px;
-}
-
-/* 영화정보박스 */
-.movtxt {
-    position: absolute;
-    top: 100%;
-    /* 아래쪽에 나가있음! */
-    /* 나의 부모는? .mlist */
-    /* left값은 셋팅하지 않으므로 젠틀하다! 
-    그래서 모두 li안에 그대로 있음! */
-
+    /* 이미지 */
+    .mlist img {
     width: 150px;
     height: 150px;
-    background-color: rgba(0, 0, 0, 0.7);
+    }
 
-    /* 글자셋팅 */
-    
-    font-size: 14px;
-    line-height: 25px;
-    color: #fff;
-    text-align: center;
 
-}
 
     .lp {
     transform-origin: center;
@@ -231,17 +211,6 @@ html body {
     }
 
     
-    .lp2 {
-        transform-origin: center;
-    }
-    
-    
-    .lp2:hover {
-        transform: rotate(5423deg);
-        transition-duration: 20s;
-        /* 트렌지션 시간 변경하기 */
-    }
-    
     .p2 {
         position: absolute;
         margin-top: 617px;
@@ -250,16 +219,6 @@ html body {
         height: 70px;
     }
 
-    .lp3 {
-        transform-origin: center;
-    }
-    
-    
-    .lp3:hover {
-        transform: rotate(5423deg);
-        transition-duration: 20s;
-        /* 트렌지션 시간 변경하기 */
-    }
 
     .p3 {
         position: absolute;
@@ -270,17 +229,6 @@ html body {
     }
 
 
-    .lp4 {
-        transform-origin: center;
-    }
-    
-    
-    .lp4:hover {
-        transform: rotate(5423deg);
-        transition-duration: 20s;
-        /* 트렌지션 시간 변경하기 */
-    }
-
     .p4 {
         position: absolute;
         margin-top: 617px;
@@ -290,17 +238,6 @@ html body {
     }
 
 
-    .lp5 {
-        transform-origin: center;
-    }
-    
-    
-    .lp5:hover {
-        transform: rotate(5423deg);
-        transition-duration: 20s;
-        /* 트렌지션 시간 변경하기 */
-    }
-
     .p5 {
         position: absolute;
         margin-top: 617px;
@@ -309,17 +246,6 @@ html body {
         height: 70px;
     }
 
-
-    .lp6 {
-        transform-origin: center;
-    }
-    
-    
-    .lp6:hover {
-        transform: rotate(5423deg);
-        transition-duration: 20s;
-        /* 트렌지션 시간 변경하기 */
-    }
 
     .p6 {
         position: absolute;
@@ -331,24 +257,12 @@ html body {
 
 
 
-/* 영화정보 li */
+/* 정보 li */
 .movtxt li {
     float: none;
     /* float해제 */
 }
 
-/* 첫번째 li는 영화제목임 */
-/* .movtxt li:first-child {
-    color: aqua;
-    font-size: 17px;
-    letter-spacing: -1px;
-    margin-top: 30px;
-} */
-
-/* 포스터 리스트에 마우스 오버시 영화정보 올라오기 */
-/* .mlist>ul>li:hover .movtxt {
-    top: 0;
-} */
 
 /************** 3. 하단영역 *******************/
 #info {
