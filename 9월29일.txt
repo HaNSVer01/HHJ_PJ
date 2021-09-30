@@ -15,8 +15,9 @@ cgv응용 파일에 따로 파일만들지말고 zip.안에 넣기
 
 
 작은엘피 동영상 넣기 - 
-1
-2 caravan - dukeellington
+1 caravan - duke ellington
+https://www.youtube.com/watch?v=r95flkZciJE
+2 atlast
 3 misty ella fitz----
 4(strange fruit-빌리홀리데이) 
 5(I Put A Spell On You니나시몬스) 
@@ -28,10 +29,11 @@ sns링크적용
 
 동영상 iframe적용할때 링크 맨뒤에 
 ?autoplay=1 해야 자동재생됨 
+&loop=1&playlist=lPYxbbKYYmE - 자동반복재생
 
 
 
-큰lp 똑같은 크기에 포샵으로 제목 씌우기 
+큰lp 크기 확인!똑같은 크기에 포샵으로 제목 씌우기 
 
 메서드만들어봤어? =  객체 안에 함수 만들어봤어?
 
@@ -43,14 +45,6 @@ sns링크적용
 
 
 
-ninasimone 
-ettajames
 
-
-
-fruits
-misty
-draen
-
-
-;p
+https://artsandculture.google.com/story/egWh29Z1IL2Vqw -까미노의 맛!
+https://artsandculture.google.com/ 색 명화 신기방기!
