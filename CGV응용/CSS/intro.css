@@ -61,6 +61,7 @@ body::after{
 
 /* Click Here 글자박스 */
 #enter span {
+    margin-top: 79px;
     display: block;
     /* 옆에 아무도 못오고 width 끝까지 간다! */
     text-align: center;
@@ -72,7 +73,7 @@ body::after{
 }
 /* 박스에 오버시 span변형하기 */
 #enter:hover span {
-    transform: scale(2);
+    transform: scale(.5);
     color: #df442f;
 }
 
@@ -85,5 +86,5 @@ body::after{
 }
 /*  박스에 마우스 오버시 로고이미지 변경하기 */
 #enter:hover img {
-    transform: rotate(-15deg) scale(1.5);
+    transform: rotate(-15deg) scale(2.0);
 }
