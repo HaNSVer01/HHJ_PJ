@@ -14,10 +14,10 @@
 .cont>div{
     outline: 2px dashed red;
 }
-
+ 
 /* 1번 컨텐츠 */
 .bg1{
-    background-image: url(../images/cont1a.jpg);
+
 }
 /* 2번 컨텐츠 3개 */
 .bg2{
@@ -35,7 +35,7 @@
 }
 /* 4번 컨텐츠 3개 */
 .bg6{
-    background-image: url(../images/cont4-1.jpg);
+    background-image: url(../images/cont4-1.jpg) 
 }
 .bg7{
     background-image: url(../images/cont4-2.jpg);
@@ -69,4 +69,65 @@
 }
 
 
+.slider ul li img {
+    width: 100%;
+}
+
+.slider input[type=radio]{
+    display: none;
+}
+ul.imgs{
+    padding: 0;
+    margin: 0;
+}
+ul.imgs li{
+    position: absolute;
+    opacity: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition-delay: 0.9s;
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.55);
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+.bullets label:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
 
