@@ -14,10 +14,10 @@
 .cont>div{
     outline: 2px dashed red;
 }
- 
+
 /* 1번 컨텐츠 */
 .bg1{
-
+    /* background-image: url(../images/cont1a.jpg); */
 }
 /* 2번 컨텐츠 3개 */
 .bg2{
@@ -35,7 +35,7 @@
 }
 /* 4번 컨텐츠 3개 */
 .bg6{
-    background-image: url(../images/cont4-1.jpg) 
+    background-image: url(../images/cont4-1.jpg);
 }
 .bg7{
     background-image: url(../images/cont4-2.jpg);
@@ -67,6 +67,7 @@
 .bg15{
     background-image: url(../images/cont7-3.jpg);
 }
+
 
 
 .slider ul li img {
@@ -130,4 +131,3 @@ ul.imgs li{
     transition: 1s;
     z-index: 1;
 }
-
